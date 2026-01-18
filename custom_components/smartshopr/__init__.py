@@ -10,7 +10,7 @@ from homeassistant.core import HomeAssistant
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
 
 from .api import SmartShoprApiClient
-from .const import DOMAIN, PLATFORMS
+from .const import DOMAIN
 from .coordinator import SmartShoprDataUpdateCoordinator
 
 _LOGGER = logging.getLogger(__name__)

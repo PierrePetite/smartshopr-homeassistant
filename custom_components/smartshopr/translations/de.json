@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SmartShopr verbinden",
+        "description": "Gib deinen API Key ein. Du findest ihn in der SmartShopr App unter Einstellungen → Home Assistant.",
+        "data": {
+          "api_key": "API Key"
+        },
+        "data_description": {
+          "api_key": "Der API Key aus der SmartShopr App (beginnt mit sk_live_)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung fehlgeschlagen",
+      "invalid_auth": "Ungültiger API Key",
+      "unknown": "Unbekannter Fehler"
+    },
+    "abort": {
+      "already_configured": "SmartShopr ist bereits konfiguriert"
+    }
+  }
+}
